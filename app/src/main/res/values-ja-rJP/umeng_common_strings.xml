@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="umeng_common_action_info_exist">ダウンロードしています</string>
+	<string name="umeng_common_info_interrupt">ダウンロード異常、ネットをチェックしてください</string>
+	<string name="umeng_common_action_pause">ストップ</string>
+	<string name="umeng_common_action_continue">続け</string>
+	<string name="umeng_common_action_cancel">キャンセル</string>
+	<string name="umeng_common_download_notification_prefix">ダウンロードしています: </string>
+	<string name="umeng_common_pause_notification_prefix">ストップ: </string>
+	<string name="umeng_common_start_download_notification">ソフトをダウンロードしています</string>
+	<string name="umeng_common_start_patch_notification">ソフト更新中</string>
+    <string name="umeng_common_network_break_alert">ネットをチェックしてからテストしてください！</string>
+	<string name="umeng_common_download_failed">ダウンロード失敗</string>
+	<string name="umeng_common_download_finish">ダウンロード完了、インストールをクリックしてください</string>
+	<string name="umeng_common_patch_finish">更新完了、インストールをクリックしてください</string>
+	<string name="umeng_common_silent_download_finish">ニュウバージョン準備完了、インストールをクリックしてください</string>
+	<string name="umeng_common_icon">icon</string>
+</resources>

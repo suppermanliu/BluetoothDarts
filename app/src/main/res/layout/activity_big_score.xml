@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/Mix_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="飞镖联赛"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/MixPlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/player_1"
+            android:text="Player1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/player1_bigscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/MixPlayer1"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/MixPlayer1"
+            android:text="5"
+            android:textSize="100sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/vs" />
+
+        <TextView
+            android:id="@+id/MixPlayer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/player_2"
+            android:text="Player2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/player2_bigscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/MixPlayer2"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/MixPlayer2"
+            android:text="5"
+            android:textSize="100sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/set_ok" />
+    </RelativeLayout>
+
+</LinearLayout>

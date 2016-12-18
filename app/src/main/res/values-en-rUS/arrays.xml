@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="progressbar">
+        <item>bar1</item>
+        <item>bar2</item>
+        <item>bar3</item>
+        <item>bar4</item>
+        <item>bar5</item>
+        <item>bar6</item>
+        <item>bar7</item>
+        <item>bar8</item>
+        <item>bar9</item>
+        <item>bar10</item>
+        <item>bar11</item>
+        <item>bar12</item>
+        <item>bar13</item>
+        <item>bar14</item>
+        <item>bar15</item>
+        <item>bar16</item>
+        <item>bar17</item>
+        <item>bar18</item>
+    </string-array>
+    
+    <string-array name="red_key">
+        <item>redkey1</item>
+        <item>redkey2</item>
+        <item>redkey3</item>
+     
+       
+    </string-array>
+</resources>

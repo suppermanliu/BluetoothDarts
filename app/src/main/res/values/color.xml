@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#18b5fe</color>
+    <color name="yellow">#fce205</color>
+    <color name="red">#fa292a</color>
+    <color name="green">#00e916</color>
+      <color name="white">#FFFFFF</color> 
+      <color name="zonetext">#6d99c4</color> 
+      <color name="match">#99ff97</color> 
+      <color name="failmatch">#fde306</color> 
+    
+    <color name="maintext">#94d0f3</color>
+    <color name="mainpressedtext">#ffff52</color>
+    <color name="mainruler">#54ffe9</color>
+    
+    <color name="settingtext">#94d0f3</color>
+    <color name="settingenabletext">#d1d1d1</color>
+</resources>

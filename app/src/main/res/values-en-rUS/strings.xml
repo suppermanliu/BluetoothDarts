@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">KingDarts</string>
+ 
+    <string name="action_settings">Settings</string>
+    <string-array name="gameitem_mickey"></string-array>
+    <string-array name="gameitem_highmark"></string-array>
+    <string-array name="gameitem_small"></string-array>
+    <string-array name="gameplayer_mickey"></string-array>
+    <string-array name="gamesetting">
+        <item>Game Settings</item>
+        <item>Player change order</item>
+        <item>Handicap Settings</item>
+        <item>Darts Return</item>
+        <item>Previous game screen</item>
+        <item>End Game</item>
+        <item>Game Rules</item>
+    </string-array>
+    
+    <string name="Choose_highscore">Count Up</string>
+    <string name="Choose_game01">01 Games</string>
+    <string name="Choose_mickey">Cricketes</string>
+    <string name="Ask3">Decider！</string>
+    <string name="restart">Continue？</string>
+    <string name="Ask1">Player1 Wins! Continue?</string>
+    <string name="Ask2">Player2 Wins! Continue?</string>
+    <string name="Ask11">Player1 Wins!</string>
+    <string name="Ask22">Player2 Wins!</string>
+    <string name="RoundSetting">Round Setting</string>
+    <string name="RoundSetting_highscore">Count Up：</string>
+    <string name="RoundSetting_game01">01 Games：</string>
+    <string name="RoundSetting_mickey">Cricketes：</string>
+    <string name="GameHighScore">Count Up</string>
+    <string name="GameMickey">Standard Cricket</string>
+    <string name="set">Settings</string>
+    <string name="option">Game Options</string>
+    <string name="rules">Game Rules</string>
+    <string name="direction">Up Down Left Right</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="reducescore">Handicap</string>
+    <string name="change">Change</string>
+    <string name="bluetoothopen">Please make sure the bluetooth is ON</string>
+    <string name="gamename">301 GAME</string>
+    <string name="gameexplain">Throw 3 darts each round, target is to achieve the highest score!</string>
+    <string name="modelitem">Option</string>
+    <string name="startitem">In Option</string>
+    <string name="enditem">Out Option</string>
+    <string name="doublebull">Double Bull</string>
+    <string name="endremind">Darts out hint</string>
+    <string name="normal">Normal</string>
+    <string name="any">Random</string>
+    <string name="and50">50/50</string>
+    <string name="open">Start</string>
+    <string name="Player1">Player1</string>
+    <string name="Player2">Player2</string>
+    <string name="Player3">Player3</string>
+    <string name="Player4">Player4</string>
+    <string name="Player5">Player5</string>
+    <string name="Player6">Player6</string>
+    <string name="Player7">Player7</string>
+    <string name="Player8">Player8</string>
+    <string name="online">ON LINE</string>
+    <string name="offline">OFF LINE</string>
+ 
+    <string name="v2">2v2</string>
+
+    <string name="startgame">Start Game</string>
+    <string name="number1">Number1</string>
+    <string name="number2">Number2</string>
+    <string name="number3">Number3</string>
+    <string name="number4">Number4</string>
+    <string name="singlestr">SINGLE</string>
+    <string name="doublestr">DOUBLE</string>
+    <string name="triplestr">TRIPLE</string>
+    <string name="doublebullstr">D-BULL</string>
+    <string name="singlebullstr">S-BULL</string>
+  
+    <string name="integral">Points:</string>
+    <string name="level">Level:</string>
+   
+    <string name="integralstr">Points</string>
+    <string name="levelstr">Level</string>
+    <string name="dartsstr">Darts Thrown</string>
+    <string name="pprstr">PPR</string>
+    <string name="ppdstr">PPD</string>
+     <string name="mprstr">MPR</string>
+    <string name="totalstr">Total Points</string>
+    <string name="roundstr">Round</string>
+    <string name="plasethrowdart">   Please Throw Darts！</string>
+    <string name="plasegetdart">Please Remove Darts！</string>
+    <string name="gameover">End Game！</string>
+    <string name="promptdarts">Fullfilled darts out requirment！</string>
+    <string name="deviceexception">Sorry, your settings are not correct, please reset！</string>
+    
+     <string name="gameset">Game started, cannot change settings!</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    
+</resources>

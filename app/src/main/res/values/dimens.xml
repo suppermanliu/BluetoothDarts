@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_options_textsize">16sp</dimen>
+    <dimen name="activity_gameplayer_textsize">30dp</dimen> 
+  	<dimen name="activity_gamescore_textsize">70dp</dimen>
+  	
+  	<dimen name="activity_main_name">25sp</dimen>
+  	<dimen name="activity_main_credits">15sp</dimen>
+  	<dimen name="activity_main_level">15sp</dimen>
+  	
+  	
+  	<dimen name="activity_stats_textsize">16sp</dimen>
+  	<dimen name="gametext">40sp</dimen>
+  	
+  	<dimen name="first_1">50sp</dimen>
+  	<dimen name="first_4">25sp</dimen>
+  	<dimen name="first_6">20sp</dimen>
+  	<dimen name="first_8">15sp</dimen>
+</resources>

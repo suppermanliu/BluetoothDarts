@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:darts="http://schemas.android.com/apk/res/com.hopen.bluetoothdarts"
+    android:id="@+id/LinearLayout_stats"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/stats_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- 用来获取“标准米老鼠”字符串 -->
+
+        <TextView
+            android:id="@+id/first_title_biaozhun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/GameMickey"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <!-- 用来获取“高分赛”字符串 -->
+
+        <TextView
+            android:id="@+id/first_title_gaofen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/GameHighScore"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/game_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/on_offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/online" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <com.hopen.darts.view.StatsPlayerView
+            android:id="@+id/StatsPlayerView_4_Vs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            darts:text_color="@color/white"
+            darts:text_size="@dimen/activity_stats_textsize"
+            darts:vs_visibility="true" />
+
+        <com.hopen.darts.view.StatsPlayerView
+            android:id="@+id/StatsPlayerView_4_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            darts:text_size="@dimen/activity_stats_textsize" />
+
+        <com.hopen.darts.view.StatsPlayerView
+            android:id="@+id/StatsPlayerView_4_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            darts:text_size="@dimen/activity_stats_textsize" />
+
+        <com.hopen.darts.view.StatsPlayerView
+            android:id="@+id/StatsPlayerView_4_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            darts:text_size="@dimen/activity_stats_textsize" />
+
+        <com.hopen.darts.view.StatsPlayerView
+            android:id="@+id/StatsPlayerView_4_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            darts:text_size="@dimen/activity_stats_textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_4v4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/frameLayout_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" >
+
+                <com.hopen.darts.view.StatsPlayerView
+                    android:id="@+id/StatsPlayerView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    darts:text_size="@dimen/activity_stats_textsize" />
+
+                <com.hopen.darts.view.StatsPlayerView
+                    android:id="@+id/StatsPlayerView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    darts:text_size="@dimen/activity_stats_textsize" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.hopen.darts.view.StatsPlayerView
+            android:id="@+id/StatsPlayerView_Vs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.0"
+            darts:text_color="@color/white"
+            darts:text_size="@dimen/activity_stats_textsize"
+            darts:vs_visibility="true" />
+
+        <RelativeLayout
+            android:id="@+id/frameLayout_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" >
+
+                <com.hopen.darts.view.StatsPlayerView
+                    android:id="@+id/StatsPlayerView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    darts:text_size="@dimen/activity_stats_textsize" />
+
+                <com.hopen.darts.view.StatsPlayerView
+                    android:id="@+id/StatsPlayerView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    darts:text_size="@dimen/activity_stats_textsize" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

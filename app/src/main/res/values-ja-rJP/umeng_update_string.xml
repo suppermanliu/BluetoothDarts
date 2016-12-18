@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="UMBreak_Network">ネット接続していません</string>
+	<string name="UMUpdateTitle">ニュウバージョン発見</string>
+	<string name="UMNewVersion">最新バージョン: </string>
+	<string name="UMUpdateContent">内容更新</string>
+	<string name="UMUpdateSize">ダウンロード必要:</string>
+	<string name="UMTargetSize">ニュウバージョンサイズ:</string>
+	<string name="UMGprsCondition">（ヒント：WIFIではありません）</string>
+	<string name="UMUpdateNow">すぐに更新</string>
+	<string name="UMAppUpdate">ソフト更新</string>
+	<string name="UMNotNow">後で</string>
+	<string name="UMIgnore">無視します</string>
+	<string name="UMToast_IsUpdating">更新中....</string>
+	<string name="UMDialog_InstallAPK">最新バージョンダウンロード完了、インストールしますか？</string>
+	<string name="UMUpdateCheck">2.6.0.1.20150312</string>
+</resources>

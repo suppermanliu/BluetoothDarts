@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_game_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.hopen.darts.view.GamePlayerView
+        android:id="@+id/gamePlayerView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone" >
+    </com.hopen.darts.view.GamePlayerView>
+
+    <LinearLayout
+        android:id="@+id/bigscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/playercard_dark"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/scoreA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:text="0"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fenhao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:text=":"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scoreB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="0"
+            android:textSize="35sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <com.hopen.darts.view.GamePlayerView
+        android:id="@+id/gamePlayerView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone" >
+    </com.hopen.darts.view.GamePlayerView>
+
+    <com.hopen.darts.view.GamePlayerView
+        android:id="@+id/gamePlayerView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone" >
+    </com.hopen.darts.view.GamePlayerView>
+
+    <com.hopen.darts.view.GamePlayerView
+        android:id="@+id/gamePlayerView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone" >
+    </com.hopen.darts.view.GamePlayerView>
+
+</LinearLayout>

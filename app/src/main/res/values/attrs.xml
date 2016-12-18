@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CacheImageView">  
+        <attr name="imagename" format="string" /> 
+    </declare-styleable> 
+    
+    <declare-styleable name="CacheLinearLayout">
+        <attr name="linearbgname" format = "string" />
+    </declare-styleable> 
+    
+    <declare-styleable name="CacheRelativeLayout">  
+        <attr name="relativebgname" format="string" />
+    </declare-styleable> 
+    
+    <declare-styleable name="PayPlayerView">  
+        <attr name="lppbg" format="reference"/>
+        <attr name="ippbg" format="reference"/>
+        <attr name="fppmbg" format="reference"/>
+        <attr name="tppnbg" format="reference"/>
+        <attr name="tppntextsize" format="reference"/>
+        <attr name="tppctext" format="string"/>
+        <attr name="tppctextsize" format="reference"/>
+        <attr name="tppctextcolor" format="reference"/>
+        <attr name="tppltext" format="string"/>
+        <attr name="tppltextsize" format="reference"/>
+        <attr name="tppltextcolor" format="reference"/>
+        <attr name="lppfbg" format="reference"/>
+        <attr name="playername" format="string"/>
+    </declare-styleable> 
+    
+    <declare-styleable name="StatsPlayerView">  
+        <attr name="stbbg" format="reference"/>
+        <attr name="sphbg" format="reference"/>
+        <attr name="sprbg" format="reference"/>
+        <attr name="spabg" format="reference"/>
+        <attr name="text_size" format="reference"/>
+        <attr name="text_color" format="reference"/>
+        <attr name="vs_visibility" format="boolean"/>
+        <attr name="statsplayername" format="string"/>
+    </declare-styleable> 
+    
+    <declare-styleable name="FirstPlayerView">  
+        <attr name="lfsbg" format="reference"/>
+        <attr name="ifibg" format="reference"/>
+        <attr name="lpbg" format="reference"/>
+        <attr name="ifphbg" format="reference"/>
+        <attr name="tfpntextsize" format="reference"/>
+        <attr name="tfpntextcolor" format="reference"/>
+        <attr name="fs_visibility" format="boolean"/>
+        <attr name="firstplayername" format="string"/>
+    </declare-styleable> 
+    
+    <declare-styleable name="GamePlayerView">  
+        <attr name="cardbg" format="reference"/>
+        <attr name="textcolor" format="reference"/>
+    </declare-styleable> 
+    
+    <declare-styleable name="OptionsTextView">  
+        <attr name="index" format="integer"/>
+    </declare-styleable> 
+     <declare-styleable name="LightMove">  
+     <attr name="x_axis" format="reference"/>
+     <attr name="y_axis" format="reference"/>
+     <attr name="speed" format="integer"/>
+     <attr name="drawableId" format="reference"/>
+    </declare-styleable> 
+   
+     <declare-styleable name="FrameAnim">  
+     <attr name="drawableIds" format="reference"/>
+     <attr name="duration" format="integer"/>
+     <attr name="oneshot" format="boolean"/>
+    </declare-styleable> 
+    <declare-styleable name="GifTextureView">
+        <attr name="gifSource" format="reference|string" />
+        <attr name="isOpaque" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="GifView">
+        <attr name="freezesAnimation" format="boolean"/>
+    </declare-styleable>
+</resources>

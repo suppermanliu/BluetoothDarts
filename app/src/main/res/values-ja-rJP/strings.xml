@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">キングダーツ</string>
+ 
+    <string name="action_settings">設置</string>
+    <string-array name="gameitem_mickey"></string-array>
+    <string-array name="gameitem_highmark"></string-array>
+    <string-array name="gameitem_small"></string-array>
+    <string-array name="gameplayer_mickey"></string-array>
+    <string-array name="gamesetting">
+        <item>ゲーム設定</item>
+        <item>プレーヤー変更</item>
+        <item>ハンディキャップ設定（ハンデを付ける）</item>
+        <item>リターン（前に戻り）</item>
+        <item>前回のゲーム統計インターフェース</item>
+        <item>ゲーム終了</item>
+        <item>ゲームルール</item>
+    </string-array>
+    
+    <string name="Choose_highscore">高点数戦</string>
+    <string name="Choose_game01">01ゲーム</string>
+    <string name="Choose_mickey">クリケット</string>
+    <string name="Ask3">決勝局！</string>
+    <string name="restart">続けて？</string>
+    <string name="Ask1">選手１ 勝つ! 続けて?</string>
+    <string name="Ask2">選手２ 勝つ! 続けて?</string>
+    <string name="Ask11">選手１ 勝つ!</string>
+    <string name="Ask22">選手２ 勝つ!</string>
+    <string name="RoundSetting">ゲーム設定</string>
+    <string name="RoundSetting_highscore">高点数戦：</string>
+    <string name="RoundSetting_game01">01ゲーム：</string>
+    <string name="RoundSetting_mickey">クリケット：</string>
+    <string name="GameHighScore">高点数戦</string>
+    <string name="GameMickey">クリケット（通常）</string>
+    <string name="set">設置</string>
+    <string name="option">ゲーム設定</string>
+    <string name="rules">ゲームルール</string>
+    <string name="direction">上下左右</string>
+    <string name="confirm">確定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="reducescore">ハンディキャップ（ハンデを付ける）</string>
+    <string name="change">変更</string>
+    <string name="bluetoothopen">ブルートゥースダーツボードオープン確認</string>
+    <string name="gamename">301 GAME</string>
+    <string name="gameexplain">3本投げ、合計点数計算、最高点数目標！</string>
+    <string name="modelitem">モデル選択肢</string>
+    <string name="startitem">ゲームオン選択肢</string>
+    <string name="enditem">ゲーム終了選択肢</string>
+    <string name="doublebull">ダブルブス</string>
+    <string name="endremind">最終ダーツヒント</string>
+    <string name="normal">普通</string>
+    <string name="any">任意</string>
+    <string name="and50">50/50</string>
+    <string name="open">オープン</string>
+    <string name="Player1">選手１</string>
+    <string name="Player2">選手２</string>
+    <string name="Player3">選手３</string>
+    <string name="Player4">選手４</string>
+    <string name="Player5">Player5</string>
+    <string name="Player6">Player6</string>
+    <string name="Player7">Player7</string>
+    <string name="Player8">Player8</string>
+    <string name="online">ON LINE</string>
+    <string name="offline">OFF LINE</string>
+ 
+    <string name="v2">2v2</string>
+
+    <string name="startgame">ゲーム開始</string>
+    <string name="number1">第一位</string>
+    <string name="number2">第二位</string>
+    <string name="number3">第三位</string>
+    <string name="number4">第四位</string>
+    <string name="singlestr">SINGLE</string>
+    <string name="doublestr">DOUBLE</string>
+    <string name="triplestr">TRIPLE</string>
+    <string name="doublebullstr">D-ブル</string>
+    <string name="singlebullstr">S-ブル</string>
+  
+    <string name="integral">積分:</string>
+    <string name="level">レベル:</string>
+   
+    <string name="integralstr">積分</string>
+    <string name="levelstr">レベル</string>
+    <string name="dartsstr">投げ本数</string>
+    <string name="pprstr">PPR</string>
+    <string name="ppdstr">PPD</string>
+     <string name="mprstr">MPR</string>
+    <string name="totalstr">総点</string>
+    <string name="roundstr">ラウンド</string>
+    <string name="plasethrowdart">   ダーツを投げてください！</string>
+    <string name="plasegetdart">ダーツを抜いてください！</string>
+    <string name="gameover">ゲーム終了！</string>
+    <string name="promptdarts">ゲーム終了しました！</string>
+    <string name="deviceexception">ご設備異常があります、リスタートしてください！</string>
+
+     <string name="gameset">ゲーム中、設定できません!</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    
+</resources>
